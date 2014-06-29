@@ -257,7 +257,7 @@ namespace Simulator.Main
 
         public override void BlockedUpdate(GameTime gameTime, KeyboardState state)
         {
-            if (match)
+            if (match && !server.Paused)
                 for (float t = 0; t < (float)gameTime.ElapsedGameTime.TotalSeconds; t += 0.001f)
                     ball.Update(0.001f, robot.GetBoundingBox(), robot.GetBoundingSphere(), robot.Velocity, robot.AngularVelocity);
         }

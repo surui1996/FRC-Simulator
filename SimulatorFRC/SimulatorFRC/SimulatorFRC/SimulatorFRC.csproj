@@ -143,11 +143,10 @@
     <Compile Include="PythonCommunication\RobotServer.cs" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="DriversLogo.ico" />
-    <Content Include="Game.ico" />
     <Content Include="GameThumbnail.png" />
     <Content Include="Main\Game.ico" />
     <Content Include="Main\GameThumbnail.png" />
+    <Content Include="Game.ico" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\SimulatorFRCContent\SimulatorFRCContent.contentproj">
